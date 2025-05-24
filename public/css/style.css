@@ -71,7 +71,20 @@ button:hover {
     color: #333;
     margin: 0;
 }
+/* Signup Link */
+.signup-link {
+    margin-top: 15px;
+    text-align: center;
+}
 
+.signup-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
 /* Responsive Design */
 @media (max-width: 480px) {
     .login-container {

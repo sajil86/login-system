@@ -25,6 +25,11 @@
             </div>
             <button type="submit">Login</button>
         </form>
+        
+        <!-- Added signup link here -->
+        <div class="signup-link">
+            Don't have an account? <a href="{{ route('signup') }}">Sign up here</a>
+        </div>
     </div>
 </body>
 </html>
